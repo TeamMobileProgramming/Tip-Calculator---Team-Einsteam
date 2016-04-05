@@ -17,7 +17,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
 public class MainActivity extends Activity  implements OnSeekBarChangeListener{
-	/// My second Commit
+
 	private SeekBar bar;
 	private TextView textTip, totalTip,totalBill;
 	private EditText billAmt;
@@ -26,7 +26,6 @@ public class MainActivity extends Activity  implements OnSeekBarChangeListener{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		//seekBarTip.setOnSeekBarChangeListener(this);
 		bar = (SeekBar)findViewById(R.id.tipSeekBar);
 		bar.setOnSeekBarChangeListener(this);
 		billAmt = (EditText)findViewById(R.id.billAmount);
