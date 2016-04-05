@@ -17,7 +17,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
 public class MainActivity extends Activity  implements OnSeekBarChangeListener{
-
+	/// My second Commit
 	private SeekBar bar;
 	private TextView textTip, totalTip,totalBill;
 	private EditText billAmt;
